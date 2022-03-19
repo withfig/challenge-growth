@@ -6,11 +6,12 @@
 
 # Challenge 1: Twitter Thread
 
-Write an educational Twitter threads on something to do with bash / zsh / CLIs / terminals. Also submit 5 other ideas that you brainstormed that would make great threads.
+1. Write an educational Twitter thread on something to do with bash / zsh / CLIs / terminals. 
+2. Submit 5 other ideas that you brainstormed that would make great threads (just one-two sentences summarising each is plenty)
 
-With every educational Twitter thread we do, our aim is get as many likes as possible. Why? Likes convert to followers who will continue to read other content we create, including content about Fig specifically, which will lead to more users. 
+The aim of our educational Twitter threads is to get as many likes as possible. Why? Likes convert to followers. Followers continue to read other content we create, including content about Fig specifically. More eyeballs on Fig = more users. 
 
-Our Twitter audience is comprised of very intellectually curious people. They are constantly learning and trying to improve themselves. 
+Our Twitter audience is comprised of very intellectually curious people. They are constantly learning and trying to improve themselves. We need to be interesting enough to attract advanced users but easy enough for everyone to understand. 
 
 We think the thread should be at least 4 Tweets. This doesn't mean you need to have more than 4 tweets - if you can convey everything you need to know in just 4 tweets, that's great!
 
@@ -21,6 +22,7 @@ We think the thread should be at least 4 Tweets. This doesn't mean you need to h
   * Subshells
   * brace expansion
   * variable expansion
+  * if statements!
 * CLI tools
   * Popular unix CLI tools and what they do (e.g. "what is `sed`", "what is `awk`")
   * Popular modern CLI tools (e.g. `bat` vs `cat`)
@@ -42,10 +44,10 @@ We think the thread should be at least 4 Tweets. This doesn't mean you need to h
 </details>
 
 **Our suggestions**
-* Use screenshots of code blocks (check out [Carbon](https://carbon.now.sh/) or [ray.so](https://ray.so) and/or screenshots of your terminal (use a nice background and make sure text is readable)
+* Don't write out yoru code in the tweet. Use screenshots of code blocks (check out [Carbon](https://carbon.now.sh/) or [ray.so](https://ray.so) and/or screenshots of your terminal (use a nice background and make sure text is readable)
 * Keep tweets short and bite sized. No one wants to read a wall of text!
 * The most interesting tweets have very useful and practical examples that the reader could add to their workflow instantly
-
+* If you want to see what your Tweet Thread would look like live, check out https://typefully.com/ "High Fidelity mode"
 
 **Inspiration for popular but complex shell topics**
 * Popular guide for learning the terminal / shell: https://missing.csail.mit.edu/
@@ -53,7 +55,7 @@ We think the thread should be at least 4 Tweets. This doesn't mean you need to h
 
 
 **Deliverables**
-Please submit the following as a word doc or PDF 
+Please submit the following as a word docPDF 
 
 1. A full Twitter thread for one of your ideas
 2. 5 other ideas for threads you'd be excited to write about
@@ -63,23 +65,21 @@ Please submit the following as a word doc or PDF
 
 Create a short video demo of you creating the `git` autocomplete spec. Your target audience is someone who has only just heard about Fig as a user and wants to build their own autocomplete. The aim of the video is to:
 
-
-1. enable anyone to get started building their own Fig completion spec
+1. help developers set up their enviornment to create specs
 2. teach the core concepts of a Fig completion spec (e.g. subcommand/options/arguments/generators) so if the developer wants to, they can continue on without us.
+3. show a specific, well known example
 
 
-**More specifics**
-You only create completions for:
+**The git completion spec**
+The git completion spec is huge. You obviously don't have to do the whole thing. Therefore, you should only create completions for the following:
 * git checkout
-* git checkout <branch>
-   * You should generate suggestions for the branch
-* git commit -m <msg>
+* git checkout [branch]
+   * You should generate suggestions for the branch using a "generator"
+* git commit -m [msg]
  
- 
-
 
 **Resources**
- * Our getting started guide in https://fig.io/docs should be very helpful.
+ * Our getting started guide in https://fig.io/docs will be very very helpful.
  
 
 **Other**
