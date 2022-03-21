@@ -44,7 +44,7 @@ We think the thread should be at least 4 Tweets. This doesn't mean you need to h
 </details>
 
 **Our suggestions**
-* Don't write out yoru code in the tweet. Use screenshots of code blocks (check out [Carbon](https://carbon.now.sh/) or [ray.so](https://ray.so) and/or screenshots of your terminal (use a nice background and make sure text is readable)
+* Don't write out your code in the tweet. Use screenshots of code blocks (check out [Carbon](https://carbon.now.sh/) or [ray.so](https://ray.so) and/or screenshots of your terminal (use a nice background and make sure text is readable)
 * Keep tweets short and bite sized. No one wants to read a wall of text!
 * The most interesting tweets have very useful and practical examples that the reader could add to their workflow instantly
 * If you want to see what your Tweet Thread would look like live, check out https://typefully.com/ "High Fidelity mode"
