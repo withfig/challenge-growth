@@ -6,7 +6,7 @@
 
 # Challenge 1: Twitter Thread
 
-1. Write an educational Twitter thread on something to do with bash / zsh / CLIs / terminals. 
+1. Write an educational Twitter thread on something to do with bash / zsh / CLIs / terminals that could be posted on the @fig twitter account.
 2. Submit 5 other ideas that you brainstormed that would make great threads (just one-two sentences summarising each is plenty)
 
 The aim of our educational Twitter threads is to get as many likes as possible. Why? Likes convert to followers. Followers continue to read other content we create, including content about Fig specifically. More eyeballs on Fig = more users. 
@@ -55,7 +55,7 @@ We think the thread should be at least 4 Tweets. This doesn't mean you need to h
 
 
 **Deliverables**
-Please submit the following as a word docPDF 
+Please submit the following as a word doc or PDF 
 
 1. A full Twitter thread for one of your ideas
 2. 5 other ideas for threads you'd be excited to write about
@@ -65,9 +65,8 @@ Please submit the following as a word docPDF
 
 Create a short video demo of you creating the `git` autocomplete spec. Your target audience is someone who has only just heard about Fig as a user and wants to build their own autocomplete. The aim of the video is to:
 
-1. help developers set up their enviornment to create specs
+1. help developers set up their environment to create specs
 2. teach the core concepts of a Fig completion spec (e.g. subcommand/options/arguments/generators) so if the developer wants to, they can continue on without us.
-3. show a specific, well known example
 
 
 **The git completion spec**
@@ -84,8 +83,8 @@ The git completion spec is huge. You obviously don't have to do the whole thing.
 
 **Other**
 * Rather than using the cli named `git`, we suggest using a fake CLI named `abc`.
-* You will need to write a "generator" for the <branch> argument. I will leave you to figure out what command to run to generate the suggestions and how to do the parsing.
+* You will need to write a "generator" for the <branch> argument. I will leave you to figure out what command to run to generate the suggestions and how to do the parsing + explain what a generator is
 * Keep the video clear, short and concise. Explain things like generators, options, subcommands, why you have the "args: { }" etc. Build it and test it live. Do a voice over. Can choose to show your face like in a loom or not at all.
-* Doesn't need to be fully production ready, but also shouldn't be like a 10 min stream of consciousness talk. Have some structure. We think the video should be 3 - 5 min max!
+* Doesn't need to be fully production ready, but also shouldn't be like a really long stream of consciousness talk. Have some structure! We don't think the vid should be longer than 12 min (shorter and more succinct the better)
  
  
